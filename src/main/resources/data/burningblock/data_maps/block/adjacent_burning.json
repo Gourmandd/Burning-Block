@@ -1,0 +1,61 @@
+{
+  "values": {
+    "minecraft:grass_block": {
+      "result": "burningblock:charred_grass"
+    },
+    "minecraft:podzol": {
+      "result": "burningblock:charred_grass"
+    },
+    "minecraft:mycelium": {
+      "result": "burningblock:charred_grass"
+    },
+    "minecraft:rooted_dirt": {
+      "result": "minecraft:coarse_dirt"
+    },
+    "minecraft:dirt_path": {
+      "result": "minecraft:coarse_dirt"
+    },
+    "minecraft:crimson_nylium": {
+      "result": "minecraft:netherrack"
+    },
+    "minecraft:warped_nylium": {
+      "result": "minecraft:netherrack"
+    },
+    "#minecraft:ice": {
+      "result": "minecraft:water"
+    },
+    "minecraft:clay": {
+      "result": "minecraft:terracotta"
+    },
+    "minecraft:sandstone": {
+      "result": "minecraft:sand"
+    },
+    "minecraft:red_sandstone": {
+      "result": "minecraft:red_sand"
+    },
+    "minecraft:stone_bricks": {
+      "result": "minecraft:cracked_stone_bricks"
+    },
+    "minecraft:infested_stone_bricks": {
+      "result": "minecraft:infested_cracked_stone_bricks"
+    },
+    "minecraft:deepslate_bricks": {
+      "result": "minecraft:cracked_deepslate_bricks"
+    },
+    "minecraft:deepslate_tiles": {
+      "result": "minecraft:cracked_deepslate_tiles"
+    },
+    "minecraft:polished_blackstone_bricks": {
+      "result": "minecraft:cracked_polished_blackstone_bricks"
+    },
+    "minecraft:nether_bricks": {
+      "result": "minecraft:cracked_nether_bricks"
+    },
+    "#c:glass_panes": {
+      "result": "minecraft:air"
+    },
+    "#c:glass_blocks": {
+      "result": "minecraft:air"
+    }
+  }
+}

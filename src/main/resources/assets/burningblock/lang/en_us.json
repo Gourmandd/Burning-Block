@@ -1,0 +1,19 @@
+{
+  "item_group.burningblock": "Burning Block Blocks",
+  "block.burningblock.charred_leaves": "Charred Leaves",
+  "block.burningblock.ash": "Ash",
+  "block.burningblock.rubble": "Rubble",
+  "block.burningblock.burnt_planks": "Burnt Planks",
+  "block.burningblock.burnt_log": "Burnt Log",
+  "block.burningblock.stripped_burnt_log": "Stripped Burnt Log",
+  "block.burningblock.burnt_wood": "Burnt Wood",
+  "block.burningblock.stripped_burnt_wood": "Stripped Burnt Log",
+  "block.burningblock.burnt_fence": "Burnt Fence",
+  "block.burningblock.burnt_fence_gate": "Burnt Fence Gate",
+  "block.burningblock.burnt_door": "Burnt Door",
+  "block.burningblock.burnt_trapdoor": "Burnt Trapdoor",
+  "block.burningblock.burnt_stairs": "Burnt Stairs",
+  "block.burningblock.burnt_slab": "Burnt Slab",
+  "block.burningblock.burnt_button": "Burnt Button",
+  "block.burningblock.burnt_pressure_plate": "Burnt Pressure Plate"
+}

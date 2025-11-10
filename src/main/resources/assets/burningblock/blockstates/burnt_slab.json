@@ -1,0 +1,14 @@
+
+{
+  "variants": {
+    "type=bottom": {
+      "model": "burningblock:block/burnt_slab"
+    },
+    "type=double": {
+      "model": "burningblock:block/burnt_planks"
+    },
+    "type=top": {
+      "model": "burningblock:block/burnt_slab_top"
+    }
+  }
+}

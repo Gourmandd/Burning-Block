@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "burningblock:burnt_log",
+    "burningblock:stripped_burnt_log",
+    "burningblock:burnt_wood",
+    "burningblock:stripped_burnt_wood",
+    "burningblock:burnt_planks",
+    "burningblock:burnt_button",
+    "burningblock:burnt_pressure_plate",
+    "burningblock:burnt_door",
+    "burningblock:burnt_trapdoor",
+    "burningblock:burnt_stairs",
+    "burningblock:burnt_slab",
+    "burningblock:burnt_fence",
+    "burningblock:burnt_fence_gate"
+  ]
+}

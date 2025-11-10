@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "burningblock:block/ash",
+    "side": "burningblock:block/rubble"
+  }
+}
