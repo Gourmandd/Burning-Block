@@ -30,6 +30,7 @@ public class CreativeTabs {
             .displayItems((parameters, output) -> {
                 output.accept(ModBlocks.ASH_ITEM);
                 output.accept(ModBlocks.CHARRED_LEAVES_ITEM);
+                output.accept(ModBlocks.CHARRED_GRASS_BLOCK);
                 output.accept(ModBlocks.BURNT_PLANKS_ITEM);
                 output.accept(ModBlocks.BURNT_LOG_ITEM);
                 output.accept(ModBlocks.BURNT_STRIPPED_LOG_ITEM);

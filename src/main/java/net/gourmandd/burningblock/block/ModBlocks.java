@@ -26,13 +26,13 @@ public class ModBlocks {
     public static final DeferredBlock<Block> BURNT_PLANKS = BLOCKS.registerSimpleBlock("burnt_planks", Block.Properties.ofFullCopy(Blocks.OAK_PLANKS).mapColor(MapColor.COLOR_BLACK).sound(SoundType.WOOD));
     public static final DeferredItem<BlockItem> BURNT_PLANKS_ITEM = ITEMS.registerSimpleBlockItem("burnt_planks", BURNT_PLANKS);
 
-    public static final DeferredBlock<Block> BURNT_LOG = BLOCKS.register("burnt_log", () -> new RotatedPillarBlock(Block.Properties.ofFullCopy(Blocks.OAK_LOG).mapColor(MapColor.COLOR_BLACK).sound(SoundType.WOOD)) );
+    public static final DeferredBlock<Block> BURNT_LOG = BLOCKS.register("burnt_log", () -> new BasicLogBlock(Block.Properties.ofFullCopy(Blocks.OAK_LOG).mapColor(MapColor.COLOR_BLACK).sound(SoundType.WOOD)) );
     public static final DeferredItem<BlockItem> BURNT_LOG_ITEM = ITEMS.registerSimpleBlockItem("burnt_log", BURNT_LOG);
 
     public static final DeferredBlock<Block> BURNT_STRIPPED_LOG = BLOCKS.register("stripped_burnt_log", () -> new RotatedPillarBlock(Block.Properties.ofFullCopy(Blocks.STRIPPED_OAK_LOG).mapColor(MapColor.COLOR_BLACK).sound(SoundType.WOOD)) );
     public static final DeferredItem<BlockItem> BURNT_STRIPPED_LOG_ITEM = ITEMS.registerSimpleBlockItem("stripped_burnt_log", BURNT_STRIPPED_LOG);
 
-    public static final DeferredBlock<Block> BURNT_WOOD = BLOCKS.register("burnt_wood", () -> new RotatedPillarBlock(Block.Properties.ofFullCopy(Blocks.OAK_WOOD).mapColor(MapColor.COLOR_BLACK).sound(SoundType.WOOD)) );
+    public static final DeferredBlock<Block> BURNT_WOOD = BLOCKS.register("burnt_wood", () -> new BasicLogBlock(Block.Properties.ofFullCopy(Blocks.OAK_WOOD).mapColor(MapColor.COLOR_BLACK).sound(SoundType.WOOD)) );
     public static final DeferredItem<BlockItem> BURNT_WOOD_ITEM = ITEMS.registerSimpleBlockItem("burnt_wood", BURNT_WOOD);
 
     public static final DeferredBlock<Block> BURNT_STRIPPED_WOOD = BLOCKS.register("stripped_burnt_wood", () -> new RotatedPillarBlock(Block.Properties.ofFullCopy(Blocks.STRIPPED_OAK_WOOD).mapColor(MapColor.COLOR_BLACK).sound(SoundType.WOOD)) );
