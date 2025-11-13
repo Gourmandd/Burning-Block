@@ -66,7 +66,7 @@ public class ModBlocks {
     public static final DeferredBlock<PressurePlateBlock> BURNT_PRESSURE_PLATE = BLOCKS.register("burnt_pressure_plate", () -> new PressurePlateBlock(BurntWoodType.BURNT_BLOCK_SET, Block.Properties.ofFullCopy(Blocks.OAK_PRESSURE_PLATE).mapColor(MapColor.COLOR_BLACK)));
     public static final DeferredItem<BlockItem> BURNT_PRESSURE_PLATE_ITEM = ITEMS.registerSimpleBlockItem("burnt_pressure_plate", BURNT_PRESSURE_PLATE);
 
-    public static final DeferredBlock<Block> CHARRED_GRASS = BLOCKS.register("charred_grass", () -> new CharredGrassBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.GRASS_BLOCK).mapColor(MapColor.COLOR_GRAY)));
+    public static final DeferredBlock<Block> CHARRED_GRASS = BLOCKS.register("charred_grass", () -> new CharredGrassBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.GRASS_BLOCK).mapColor(MapColor.COLOR_GRAY), Blocks.DIRT));
     public static final DeferredItem<BlockItem> CHARRED_GRASS_BLOCK = ITEMS.registerSimpleBlockItem("charred_grass", CHARRED_GRASS);
 
     // I don't think this is worth it.

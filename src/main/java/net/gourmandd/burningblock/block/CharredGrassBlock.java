@@ -11,14 +11,18 @@ import net.minecraft.world.level.block.state.BlockState;
 
 public class CharredGrassBlock extends Block {
 
-     public CharredGrassBlock(Properties properties){
+    final Block deadBlock;
+
+
+     public CharredGrassBlock(Properties properties, Block deadBlock){
          super(properties);
+         this.deadBlock = deadBlock;
      }
 
     @Override
     protected void randomTick(BlockState state, ServerLevel level, BlockPos pos, RandomSource random) {
-        if (level.getBlockState(pos.above()).canOcclude()){
-            level.setBlockAndUpdate(pos, Blocks.DIRT.defaultBlockState());
+        if (level.getBlockState(pos.above()).canOcclude() && !level.getBlockState(pos.above()).canBeReplaced()){
+            level.setBlockAndUpdate(pos, deadBlock.defaultBlockState());
         }
     }
 }
