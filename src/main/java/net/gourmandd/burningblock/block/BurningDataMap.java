@@ -37,9 +37,22 @@ public class BurningDataMap {
             AdjacentBurningData.CODEC
     ).build();
 
+    public record GrassDyingData(Block block) {
+        public static final Codec<GrassDyingData> CODEC = RecordCodecBuilder.create(instance -> instance.group(
+                BuiltInRegistries.BLOCK.byNameCodec().fieldOf("result").forGetter(GrassDyingData::block)
+        ).apply(instance, GrassDyingData::new));
+    }
+
+    public static final DataMapType<Block, GrassDyingData> GRASS_DYING_DATA = DataMapType.builder(
+            ResourceLocation.fromNamespaceAndPath(BurningBlock.MODID, "grass_dying"),
+            Registries.BLOCK,
+            GrassDyingData.CODEC
+    ).build();
+
     @SubscribeEvent // on the mod event bus
     public static void registerDataMapTypes(RegisterDataMapTypesEvent event) {
         event.register(BurningDataMap.BURNING_DATA);
         event.register(BurningDataMap.ADJACENT_BURNING_DATA);
+        event.register(BurningDataMap.GRASS_DYING_DATA);
     }
 }
