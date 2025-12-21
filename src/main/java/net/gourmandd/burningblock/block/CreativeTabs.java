@@ -1,6 +1,7 @@
 package net.gourmandd.burningblock.block;
 
 import net.gourmandd.burningblock.BurningBlock;
+import net.gourmandd.burningblock.registry.ModItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -26,23 +27,23 @@ public class CreativeTabs {
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> EXAMPLE_TAB = CREATIVE_MODE_TABS.register("example_tab", () -> CreativeModeTab.builder()
             .title(Component.translatable("item_group." + BurningBlock.MODID)) //The language key for the title of your CreativeModeTab
             .withTabsBefore(CreativeModeTabs.COMBAT)
-            .icon(() -> ModBlocks.BURNT_PLANKS_ITEM.get().getDefaultInstance())
+            .icon(() -> ModItems.BURNT_PLANKS_ITEM.get().getDefaultInstance())
             .displayItems((parameters, output) -> {
-                output.accept(ModBlocks.ASH_ITEM);
-                output.accept(ModBlocks.CHARRED_LEAVES_ITEM);
-                output.accept(ModBlocks.CHARRED_GRASS_BLOCK);
-                output.accept(ModBlocks.BURNT_PLANKS_ITEM);
-                output.accept(ModBlocks.BURNT_LOG_ITEM);
-                output.accept(ModBlocks.BURNT_STRIPPED_LOG_ITEM);
-                output.accept(ModBlocks.BURNT_WOOD_ITEM);
-                output.accept(ModBlocks.BURNT_STRIPPED_WOOD_ITEM);
-                output.accept(ModBlocks.BURNT_FENCE_ITEM);
-                output.accept(ModBlocks.BURNT_FENCE_GATE_ITEM);
-                output.accept(ModBlocks.BURNT_DOOR_ITEM);
-                output.accept(ModBlocks.BURNT_TRAPDOOR_ITEM);
-                output.accept(ModBlocks.BURNT_STAIRS_ITEM);
-                output.accept(ModBlocks.BURNT_SLAB_ITEM);
-                output.accept(ModBlocks.BURNT_BUTTON_ITEM);
-                output.accept(ModBlocks.BURNT_PRESSURE_PLATE_ITEM);
+                output.accept(ModItems.ASH_ITEM);
+                output.accept(ModItems.CHARRED_LEAVES_ITEM);
+                output.accept(ModItems.CHARRED_GRASS_BLOCK);
+                output.accept(ModItems.BURNT_PLANKS_ITEM);
+                output.accept(ModItems.BURNT_LOG_ITEM);
+                output.accept(ModItems.BURNT_STRIPPED_LOG_ITEM);
+                output.accept(ModItems.BURNT_WOOD_ITEM);
+                output.accept(ModItems.BURNT_STRIPPED_WOOD_ITEM);
+                output.accept(ModItems.BURNT_FENCE_ITEM);
+                output.accept(ModItems.BURNT_FENCE_GATE_ITEM);
+                output.accept(ModItems.BURNT_DOOR_ITEM);
+                output.accept(ModItems.BURNT_TRAPDOOR_ITEM);
+                output.accept(ModItems.BURNT_STAIRS_ITEM);
+                output.accept(ModItems.BURNT_SLAB_ITEM);
+                output.accept(ModItems.BURNT_BUTTON_ITEM);
+                output.accept(ModItems.BURNT_PRESSURE_PLATE_ITEM);
             }).build());
 }

@@ -1,8 +1,8 @@
 package net.gourmandd.burningblock.block;
 
+import net.gourmandd.burningblock.registry.ModBlocks;
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.RotatedPillarBlock;
 import net.minecraft.world.level.block.state.BlockState;
 import net.neoforged.neoforge.common.ItemAbilities;

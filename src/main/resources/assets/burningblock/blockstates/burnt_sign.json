@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "burning_block:block/burnt_sign"
+    }
+  }
+}

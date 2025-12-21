@@ -3,11 +3,10 @@ package net.gourmandd.burningblock;
 import net.gourmandd.burningblock.block.BurningDataMap;
 import net.gourmandd.burningblock.block.CreativeTabs;
 import net.gourmandd.burningblock.block.FlammableBlocks;
-import net.gourmandd.burningblock.block.ModBlocks;
+import net.gourmandd.burningblock.registry.ModBlocks;
+import net.gourmandd.burningblock.registry.ModItems;
 import net.mehvahdjukaar.moonlight.api.events.IFireConsumeBlockEvent;
 import net.mehvahdjukaar.moonlight.api.events.MoonlightEventsHelper;
-import net.minecraft.world.level.block.FireBlock;
-import net.neoforged.neoforge.registries.datamaps.RegisterDataMapTypesEvent;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -55,7 +54,7 @@ public class BurningBlock
         // Register the Deferred Register to the mod event bus so blocks get registered
         ModBlocks.BLOCKS.register(modEventBus);
         // Register the Deferred Register to the mod event bus so items get registered
-        ModBlocks.ITEMS.register(modEventBus);
+        ModItems.ITEMS.register(modEventBus);
         // Register the Deferred Register to the mod event bus so tabs get registered
         CreativeTabs.CREATIVE_MODE_TABS.register(modEventBus);
 

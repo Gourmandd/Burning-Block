@@ -16,6 +16,17 @@ repositories {
             includeGroup "curse.maven"
         }
     }
+    exclusiveContent {
+        forRepository {
+            maven {
+                url = "https://maven.terraformersmc.com/"
+            }
+        }
+        filter {
+            includeGroup "com.terraformersmc"
+            includeGroup "dev.emi"
+        }
+    }
 }
 
 tasks.named('wrapper', Wrapper).configure {
@@ -137,6 +148,7 @@ dependencies {
     // The group id is ignored when searching -- in this case, it is "blank"
     // implementation "blank:coolmod-${mc_version}:${coolmod_version}"
     implementation 'curse.maven:selene-499980:7017282'
+    implementation "dev.emi:emi-neoforge:1.1.22+1.21.1"
     // Example mod dependency using a file as dependency
     // implementation files("libs/coolmod-${mc_version}-${coolmod_version}.jar")
 

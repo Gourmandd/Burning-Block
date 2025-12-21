@@ -2,7 +2,7 @@ package net.gourmandd.burningblock;
 
 import net.gourmandd.burningblock.block.BurningDataMap;
 import net.gourmandd.burningblock.block.FallingLayeredBlock;
-import net.gourmandd.burningblock.block.ModBlocks;
+import net.gourmandd.burningblock.registry.ModBlocks;
 import net.mehvahdjukaar.moonlight.api.events.IFireConsumeBlockEvent;
 import net.mehvahdjukaar.moonlight.api.misc.EventCalled;
 import net.minecraft.core.BlockPos;
