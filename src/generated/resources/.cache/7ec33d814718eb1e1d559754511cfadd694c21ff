@@ -1,0 +1,15 @@
+// 1.21.1	2026-06-11T08:55:56.93111014	Tags for minecraft:item mod id burningblock
+13e43722e7381f3e129c7aa111d33a08395ac9ef data/burningblock/tags/item/burnt_logs.json
+ca28f694af6c51924b64d45b3d5240bada63d22a data/c/tags/item/ash.json
+b0220ccf2432666bed83dd1895b1f37cd3af729b data/c/tags/item/fence_gates.json
+b0220ccf2432666bed83dd1895b1f37cd3af729b data/minecraft/tags/item/fence_gates.json
+0bcd73556f2bfab92e907c82c453e126ed1ff275 data/minecraft/tags/item/logs.json
+0bcd73556f2bfab92e907c82c453e126ed1ff275 data/minecraft/tags/item/logs_that_burn.json
+30d0244f957ddfbfc81af3b55253762305811cdd data/minecraft/tags/item/planks.json
+c18b7543f2ddc27202234a80474324c258e9d07c data/minecraft/tags/item/wooden_buttons.json
+658d35e115611ae4fd4d01dbbe5292fc51ec435c data/minecraft/tags/item/wooden_doors.json
+befd566514c7cc34dc9b78a547fa4df191fb9419 data/minecraft/tags/item/wooden_fences.json
+503e7bce24de197c9c2a551df91e9e505e7f1ae4 data/minecraft/tags/item/wooden_pressure_plates.json
+3fc1e8870394c5e21d5f0f27c2bea4f1ae1f1c2f data/minecraft/tags/item/wooden_slabs.json
+3fb80a439f405a11a0a631e166b8cec963ffd281 data/minecraft/tags/item/wooden_stairs.json
+71ac548287c219927eeb34c4dd0dd346d93a5cea data/minecraft/tags/item/wooden_trapdoors.json

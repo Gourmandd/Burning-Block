@@ -95,7 +95,7 @@ public class BlockBurningMechanic {
         BlockState state = event.getState();
         double random_num = Math.random();
 
-        if (state.is(Tags.BURNS_INTO_ASH) || (random_num < (ALT_RESULT_CHANCE * alt_result_multiplier) && alt_result_multiplier != 0)) {
+        if (state.is(BBTags.BURNS_INTO_ASH) || (random_num < (ALT_RESULT_CHANCE * alt_result_multiplier) && alt_result_multiplier != 0)) {
             if (random_num >= 0.25d){
                 event.setFinalState(Blocks.AIR.defaultBlockState());
             } else {
@@ -115,58 +115,58 @@ public class BlockBurningMechanic {
         BlockState state = event.getState();
 
 
-        if (state.is(Tags.BURNS_FULLY)) {
+        if (state.is(BBTags.BURNS_FULLY)) {
             doAdjacentBurning(event);
             event.setFinalState(Blocks.AIR.defaultBlockState());
             return;
         }
 
-        if (state.is(Tags.BURNS_INTO_LEAVES)) {
+        if (state.is(BBTags.BURNS_INTO_LEAVES)) {
             burnBlock(event, ModBlocks.CHARRED_LEAVES.get().defaultBlockState().setValue(FallingLayeredBlock.LAYERS, getRandomLayerInt()), 3);
             return;
         }
 
-        if (state.is(Tags.BURNS_INTO_PLANKS)) {
+        if (state.is(BBTags.BURNS_INTO_PLANKS)) {
             burnBlock(event, ModBlocks.BURNT_PLANKS.get().defaultBlockState(), 2);
             return;
         }
 
-        if (state.is(Tags.BURNS_INTO_LOG)) {
+        if (state.is(BBTags.BURNS_INTO_LOG)) {
             burnBlock(event, ModBlocks.BURNT_LOG.get().withPropertiesOf(state), 0);
             return;
         }
 
-        if (state.is(Tags.BURNS_INTO_STRIPPED_LOG)) {
+        if (state.is(BBTags.BURNS_INTO_STRIPPED_LOG)) {
             burnBlock(event, ModBlocks.BURNT_STRIPPED_LOG.get().withPropertiesOf(state), 0);
             return;
         }
 
-        if (state.is(Tags.BURNS_INTO_WOOD)) {
+        if (state.is(BBTags.BURNS_INTO_WOOD)) {
             burnBlock(event, ModBlocks.BURNT_WOOD.get().withPropertiesOf(state), 0);
             return;
         }
 
-        if (state.is(Tags.BURNS_INTO_STRIPPED_WOOD)) {
+        if (state.is(BBTags.BURNS_INTO_STRIPPED_WOOD)) {
             burnBlock(event, ModBlocks.BURNT_STRIPPED_WOOD.get().withPropertiesOf(state), 0);
             return;
         }
 
-        if (state.is(Tags.BURNS_INTO_STAIRS)) {
+        if (state.is(BBTags.BURNS_INTO_STAIRS)) {
             burnBlock(event, ModBlocks.BURNT_STAIRS.get().withPropertiesOf(state), 2);
             return;
         }
 
-        if (state.is(Tags.BURNS_INTO_SLAB)) {
+        if (state.is(BBTags.BURNS_INTO_SLAB)) {
             burnBlock(event, ModBlocks.BURNT_SLAB.get().withPropertiesOf(state), 2);
             return;
         }
 
-        if (state.is(Tags.BURNS_INTO_FENCE)) {
+        if (state.is(BBTags.BURNS_INTO_FENCE)) {
             burnBlock(event, ModBlocks.BURNT_FENCE.get().withPropertiesOf(state), 2);
             return;
         }
 
-        if (state.is(Tags.BURNS_INTO_FENCE_GATE)) {
+        if (state.is(BBTags.BURNS_INTO_FENCE_GATE)) {
             burnBlock(event, ModBlocks.BURNT_FENCE_GATE.get().withPropertiesOf(state), 2);
             return;
         }
