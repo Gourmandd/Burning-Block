@@ -4,7 +4,7 @@
   "group": "bark",
   "key": {
     "#": {
-      "item": "burningblock:stripped_burnt_log"
+      "item": "burningblock:burnt_log"
     }
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 3,
-    "id": "burningblock:stripped_burnt_wood"
+    "id": "burningblock:burnt_wood"
   }
 }

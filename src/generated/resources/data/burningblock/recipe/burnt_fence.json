@@ -4,18 +4,18 @@
   "group": "wooden_fence",
   "key": {
     "#": {
-      "item": "minecraft:stick"
-    },
-    "W": {
       "item": "burningblock:burnt_planks"
+    },
+    "S": {
+      "item": "minecraft:stick"
     }
   },
   "pattern": [
-    "W#W",
-    "W#W"
+    "#S#",
+    "#S#"
   ],
   "result": {
-    "count": 3,
+    "count": 1,
     "id": "burningblock:burnt_fence"
   }
 }

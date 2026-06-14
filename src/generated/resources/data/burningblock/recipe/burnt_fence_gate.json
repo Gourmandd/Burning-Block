@@ -4,15 +4,15 @@
   "group": "wooden_fence_gate",
   "key": {
     "#": {
-      "item": "minecraft:stick"
-    },
-    "W": {
       "item": "burningblock:burnt_planks"
+    },
+    "S": {
+      "item": "minecraft:stick"
     }
   },
   "pattern": [
-    "#W#",
-    "#W#"
+    "S#S",
+    "S#S"
   ],
   "result": {
     "count": 1,
