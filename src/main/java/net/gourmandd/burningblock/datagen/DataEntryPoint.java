@@ -35,6 +35,7 @@ public final class DataEntryPoint
 
         add(event, new DatagenBlockTags(event, lookup));
         add(event, new DatagenItemTags(event, lookup));
+        add(event, new DatagenDataMapProvider(output, lookup));
         //add(event, new DatagenBlockStates(output, event.getExistingFileHelper()));
         //add(event, new DatagenItemModels(output, event.getExistingFileHelper()));
         //add(event, new DatagenLanguageProvider(output));

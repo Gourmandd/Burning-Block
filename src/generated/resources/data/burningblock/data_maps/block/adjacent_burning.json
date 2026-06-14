@@ -1,0 +1,79 @@
+{
+  "values": {
+    "#c:glass_blocks": {
+      "result": "minecraft:air"
+    },
+    "#c:glass_panes": {
+      "result": "minecraft:air"
+    },
+    "#minecraft:ice": {
+      "result": "minecraft:water"
+    },
+    "minecraft:clay": {
+      "result": "minecraft:terracotta"
+    },
+    "minecraft:crimson_nylium": {
+      "result": "minecraft:netherrack"
+    },
+    "minecraft:deepslate_bricks": {
+      "result": "minecraft:cracked_deepslate_bricks"
+    },
+    "minecraft:deepslate_tiles": {
+      "result": "minecraft:cracked_deepslate_tiles"
+    },
+    "minecraft:dirt_path": {
+      "result": "minecraft:coarse_dirt"
+    },
+    "minecraft:grass_block": {
+      "result": "burningblock:charred_grass"
+    },
+    "minecraft:infested_chiseled_stone_bricks": {
+      "result": "minecraft:chiseled_stone_bricks"
+    },
+    "minecraft:infested_cobblestone": {
+      "result": "minecraft:cobblestone"
+    },
+    "minecraft:infested_cracked_stone_bricks": {
+      "result": "minecraft:cracked_stone_bricks"
+    },
+    "minecraft:infested_deepslate": {
+      "result": "minecraft:deepslate"
+    },
+    "minecraft:infested_mossy_stone_bricks": {
+      "result": "minecraft:mossy_stone_bricks"
+    },
+    "minecraft:infested_stone": {
+      "result": "minecraft:stone"
+    },
+    "minecraft:infested_stone_bricks": {
+      "result": "minecraft:infested_cracked_stone_bricks"
+    },
+    "minecraft:mycelium": {
+      "result": "burningblock:charred_grass"
+    },
+    "minecraft:nether_bricks": {
+      "result": "minecraft:cracked_nether_bricks"
+    },
+    "minecraft:podzol": {
+      "result": "burningblock:charred_grass"
+    },
+    "minecraft:polished_blackstone_bricks": {
+      "result": "minecraft:cracked_polished_blackstone_bricks"
+    },
+    "minecraft:red_sandstone": {
+      "result": "minecraft:red_sand"
+    },
+    "minecraft:rooted_dirt": {
+      "result": "minecraft:coarse_dirt"
+    },
+    "minecraft:sandstone": {
+      "result": "minecraft:sand"
+    },
+    "minecraft:stone_bricks": {
+      "result": "minecraft:cracked_stone_bricks"
+    },
+    "minecraft:warped_nylium": {
+      "result": "minecraft:netherrack"
+    }
+  }
+}
